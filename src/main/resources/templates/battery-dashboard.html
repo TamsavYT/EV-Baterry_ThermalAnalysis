@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EV Battery Thermal Risk Analysis - Dashboard</title>
-    <meta name="description" content="Advanced thermal risk analysis dashboard for electric vehicle battery monitoring and predictive analytics">
+    <meta name="description"
+        content="Advanced thermal risk analysis dashboard for electric vehicle battery monitoring and predictive analytics">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="battery-dashboard.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/battery-dashboard.css}">
 </head>
+
 <body>
     <div class="cosmic-bg">
         <div class="stars"></div>
@@ -48,11 +53,11 @@
                                 <stop offset="100%" style="stop-color:#ff0055;stop-opacity:1" />
                             </linearGradient>
                         </defs>
-                        <path id="gaugeBackground" d="M 20 100 A 80 80 0 0 1 180 100" 
-                              fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="20" stroke-linecap="round"/>
-                        <path id="gaugeFill" d="M 20 100 A 80 80 0 0 1 180 100" 
-                              fill="none" stroke="url(#gaugeGradient)" stroke-width="20" 
-                              stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="125.6"/>
+                        <path id="gaugeBackground" d="M 20 100 A 80 80 0 0 1 180 100" fill="none"
+                            stroke="rgba(255,255,255,0.1)" stroke-width="20" stroke-linecap="round" />
+                        <path id="gaugeFill" d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#gaugeGradient)"
+                            stroke-width="20" stroke-linecap="round" stroke-dasharray="251.2"
+                            stroke-dashoffset="125.6" />
                     </svg>
                     <div class="gauge-value">
                         <span id="riskLevel" class="risk-value">0</span>
@@ -189,6 +194,7 @@
         </div>
     </div>
 
-    <script src="battery-dashboard.js"></script>
+    <script th:src="@{/js/battery-dashboard.js}"></script>
 </body>
+
 </html>

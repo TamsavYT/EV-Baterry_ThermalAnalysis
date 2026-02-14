@@ -1,13 +1,18 @@
 package com.example.UserLogin.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class HomeController {
 
-    @GetMapping("/")
+    @GetMapping("/dashboard")
     public String home() {
-        return "Welcome to User Login Application";
+        return "battery-dashboard";
+    }
+
+    @GetMapping("/home")
+    public String dashboard() {
+        return "battery-dashboard";
     }
 }

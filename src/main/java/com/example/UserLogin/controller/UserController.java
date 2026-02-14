@@ -32,11 +32,6 @@ public class UserController {
         }
     }
 
-    @GetMapping("/")
-    public String Heloo() {
-        return "App is running";
-    }
-
     @GetMapping("/error")
     public String showError() {
         return "this is error page";

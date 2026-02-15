@@ -53,3 +53,5 @@ buildNumber.properties
 
 # Firebase credentials - DO NOT COMMIT
 firebase-service-account.json
+
+

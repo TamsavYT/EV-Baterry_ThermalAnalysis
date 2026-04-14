@@ -1,11 +1,13 @@
-package com.example.UserLogin;
+package com.example.thermalanalysis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserLoginApplication {
+public class ThermalAnalysisApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(UserLoginApplication.class, args);
+		SpringApplication.run(ThermalAnalysisApplication.class, args);
 	}
+
 }

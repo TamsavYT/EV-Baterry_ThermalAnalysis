@@ -1,8 +1,8 @@
 spring:
   application:
-   name: UserLogin
+   name: ThermalAnalysis
   datasource:
-    url: jdbc:mysql://localhost:3306/userinfo
+    url: jdbc:mysql://localhost:3306/thermaldb
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

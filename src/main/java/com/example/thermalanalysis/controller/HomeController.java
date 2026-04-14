@@ -1,4 +1,4 @@
-package com.example.UserLogin.controller;
+package com.example.thermalanalysis.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to User Login Application";
+        return "Welcome to EV Battery Thermal Analysis";
     }
 }

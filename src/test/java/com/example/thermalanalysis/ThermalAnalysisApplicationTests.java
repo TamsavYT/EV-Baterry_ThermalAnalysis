@@ -1,10 +1,10 @@
-package com.example.UserLogin;
+package com.example.thermalanalysis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserLoginApplicationTests {
+class ThermalAnalysisApplicationTests {
 
 	@Test
 	void contextLoads() {
